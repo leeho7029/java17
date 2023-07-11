@@ -27,5 +27,20 @@ public class Example1 {
         System.out.println("tot1="+tot1);
         System.out.println("tot2="+tot2);
 
+        int hap=0;
+        for (int a=1;a<100;a+=2){
+            hap+=a;
+        }
+        System.out.println("홀수의 합 : "+hap);
+
+        int b = 1;
+        hap = 0;
+        for(;;){
+            hap+=b;
+            b+=2;
+            if(b<=100) break;
+        }
+        System.out.println("");
+
     }
 }
