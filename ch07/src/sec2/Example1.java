@@ -1,4 +1,6 @@
-package sec1;
+package sec2;
+
+import sec1.Airplane;
 
 public class Example1 {
     public static void main(String[] args) {

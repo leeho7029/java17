@@ -21,6 +21,17 @@ public class Outer {
     public int getItem1(){return item1;}
     public void setItem1(int item1){this.item1 = item1}
 
+    public String getItem2() {
+        return item2;
+    }
+
+    public void setItem2(String item2) {
+        this.item2 = item2;
+    }
+    public void method1(){
+        System.out.println("외부 클래스의 메소드1");
+    }
+    //2.생성메소드 이용하는 방법
     public Dbl getDb1(){
         return new Dbl();
     }
